@@ -1,7 +1,7 @@
 # Django Assessment
 Make a login app using Django's Auth that consists of a custom user model named "CustomUser".
 
-Focus on the design of the login interface as well as simplicity in backend -- Style and Design are important!
+Focus on the design of the login interface as well as the models in the backend -- Style and Design are important!
 
 Tech:
 - Django
