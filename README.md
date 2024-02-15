@@ -25,7 +25,7 @@ Requirements:
 - 
  
 Optional:
-- SMS 2FA
+- Give the user an option to change the color scheme of the site permantently by choice.
 - Celery (or Django view) for Async Email Check.
 - Enable elevated user permissions for a user-type to view and edit all registered users. This would be essentailly a super user with more priveldges than everyone else.
 - Allow the user to change the timezone by selection for the custom template tag
