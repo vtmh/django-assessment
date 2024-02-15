@@ -12,6 +12,7 @@ Tech:
 
 Requirements:
 * do not use Django Admin, this needs to be built out customly.
+- Docker Containerization of app. Build your own Dockerfile and use docker-compose to `up` the system.
 - User Registration
     - No duplicate users
 - Login Interface
@@ -20,10 +21,10 @@ Requirements:
 - 2FA based on Email.
     - console out the email if needed, it doesn't have to run through SMTP if you can't find a free option, but it should be production ready if wanted.
 - Forgot password functionality (you can use password hints or email based reset).
-- Logout 
+- Logout
+- 
  
 Optional:
-- Docker Containerization
 - SMS 2FA
 - Celery (or Django view) for Async Email Check.
 - Enable elevated user permissions for a user-type to view and edit all registered users. This would be essentailly a super user with more priveldges than everyone else.
